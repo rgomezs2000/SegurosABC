@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:60997/ServicioSegurosABC.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServicioSegurosABC" />
+  <xs:element name="ConsultarPagoClientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cedula" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarPagoClientesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ServicioSegurosABC" minOccurs="0" name="ConsultarPagoClientesResult" nillable="true" type="q1:ArrayOfClientes" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b9f6b9fd-8993-44b3-b081-f5c7bbab79ef" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60997/ServicioSegurosABC.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioSegurosABC.wsdl" MetadataType="Wsdl" ID="baa7e1b4-5b13-4c94-9238-0d8adee1c67a" SourceId="1" SourceUrl="http://localhost:60997/ServicioSegurosABC.svc?wsdl" />
+    <MetadataFile FileName="ServicioSegurosABC.xsd" MetadataType="Schema" ID="db37b8fd-6e3b-456f-b514-16f646696533" SourceId="1" SourceUrl="http://localhost:60997/ServicioSegurosABC.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioSegurosABC1.xsd" MetadataType="Schema" ID="bd642590-cccd-4cf9-91a5-426c767aa419" SourceId="1" SourceUrl="http://localhost:60997/ServicioSegurosABC.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioSegurosABC.disco" MetadataType="Disco" ID="451781d3-afdf-4f51-9edc-43c90d5d1fe2" SourceId="1" SourceUrl="http://localhost:60997/ServicioSegurosABC.svc?disco" />
+    <MetadataFile FileName="ServicioSegurosABC2.xsd" MetadataType="Schema" ID="654fd015-0513-4442-b491-45acf532ccf8" SourceId="1" SourceUrl="http://localhost:60997/ServicioSegurosABC.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
